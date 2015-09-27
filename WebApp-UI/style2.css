@@ -1,0 +1,22 @@
+.cart-empty {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid #dadada;
+}
+div{
+    display:block;
+}
+.cart-name{
+
+    padding: 13px 20px;
+    color: #790000;
+    font-size: 18px;
+    font-weight: bold;
+}
+n:after {
+    clear: both;
+    content: "";
+    display: block;
+}

@@ -1,0 +1,85 @@
+<!Doctype html>
+<head>
+    <title>Order Online </title>
+    <link rel = "stylesheet" href = "style1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<ul class="nav nav-tabs">
+    <h1 class="text-primary style"> My Restaurant App </h1>
+    <li class="nav nav-tabs nav-bar">
+    <li><a href="About us.html ">About Us</a></li>
+    <li class="style1 style2 active">
+
+
+        <a href="Orders.html"  title="Hungry? Reserve your seat here">Orders<!--<span class="caret"></span>--></a>
+
+
+    </li>
+
+
+    <li><a href="ContactUs.html" title="We love feedback! Provide your valuable feedback" class="style1">Contact Us</a></li>
+
+
+</ul>
+
+<section>
+    <h3 class="deisgn2">Reserve your seat here </h3>
+
+    <article class="design1">
+        <form>
+            <header> <label> Select the Date and Time </label></header>
+            <input type ="datetime-local"  required="required" />
+            <header><label> Select the range of people </label></header>
+            <input type = "number" min = "1" max = "20"/>
+            <header> <label> Enter your phone number </label></header>
+            <input type = "tel" placeholder ="###_###_####"/>
+            <a href="Reservpage.html"><input type="submit" value="Find a table"/></a>
+
+        </form>
+    </article>
+
+
+
+</section>
+
+
+
+<section>
+    <h3> Owner Login </h3>
+
+
+    <article class="design1">
+        <form  action="submit" method="get" accept-charset="utf-8">
+
+            <header>  <label for="usermail">Email</label></header>
+            <input type="email" name="usermail" placeholder="xyz@email.com" required>
+            <header><label for="password">Password</label></header>
+            <input type="password" name="password" placeholder="password" required>
+
+            <a href="Reservpage.html"><input type="submit" value="Login"/></a></article>
+
+    <p>Note: Owners can login to Edit/Cancel a reservation. </p>
+
+    </form>
+
+</section>
+
+
+
+<!--<div class = "div1"> <span></span> Check avaialbility: </span>
+<span> Select Date : </span>-->
+
+
+<footer align="center">
+    <div>© 2015 My Restaurant App</div>
+
+</footer>
+
+
+
+</body>
